@@ -18,7 +18,7 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle {{dropdown}}" id="dropdown04" data-bs-toggle="dropdown" attr.aria-expanded="{{toggledrop}}" (click)="dropdowntoggle()">Dropdown</a>
           <ul class="dropdown-menu {{dropdown}}" aria-labelledby="dropdown04" data-bs-popper="none">
-            <li><a class="dropdown-item" href="#" (click)="reset()">Action</a></li>
+            <li><a class="dropdown-item" href="#" (click)="reset()" [routerLink]="locmenu.navpath">Login</a></li>
             <li><a class="dropdown-item" href="#" (click)="reset()">Another action</a></li>
             <li><a class="dropdown-item" href="#" (click)="reset()">Something else here</a></li>
           </ul>
@@ -31,8 +31,8 @@
     </div>
   </div>
 </nav>
-<main class="container" (click)="reset()">
-  <div class="bg-light p-2 rounded">
+<main (click)="reset()">
+  <div>
     <router-outlet></router-outlet>
   </div>
 </main>
