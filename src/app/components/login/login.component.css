@@ -1,0 +1,14 @@
+#signup {
+    /* Background pattern from Toptal Subtle Patterns */
+    /*https://gitapps.herokuapp.com/bg.a0cfbd946f0dc7fe5ce2.jpg*/
+    /*https://amymhaddad.s3.amazonaws.com/morocco-blue.png"*/
+    background-image: url("https://amymhaddad.s3.amazonaws.com/morocco-blue.png");
+    height: fit-content;
+    width: fit-content;
+ }
+
+ #signin {
+    background-color: #f3a4a4;
+    height: fit-content;
+    width: fit-content;
+ }
