@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Fixed navbar</a>
+    <a class="navbar-brand" >Fixed navbar</a>
     <button class="navbar-toggler {{buttonstat}}" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" attr.aria-expanded="{{navbutton}}" aria-label="Toggle navigation" (click)="navbuttonclick()">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -13,19 +13,19 @@
           <a class="nav-link" href="#">Link</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle {{dropdown}}" id="dropdown04" data-bs-toggle="dropdown" attr.aria-expanded="{{toggledrop}}" (click)="dropdowntoggle()">Dropdown</a>
+          <a class="nav-link dropdown-toggle {{dropdown}}" data-bs-toggle="dropdown" attr.aria-expanded="{{toggledrop}}" (click)="dropdowntoggle()">Dropdown</a>
           <ul class="dropdown-menu {{dropdown}}" aria-labelledby="dropdown04" data-bs-popper="none">
-            <li><a class="dropdown-item" href="#" (click)="reset()" [routerLink]="locmenu.navpath">Login</a></li>
+            <li><a class="dropdown-item" href="#" (click)="reset()" [routerLink]="locmenu[0].navpath">Login</a></li>
             <li><a class="dropdown-item" href="#" (click)="reset()">Another action</a></li>
             <li><a class="dropdown-item" href="#" (click)="reset()">Something else here</a></li>
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" (click)="reset()" [routerLink]="locmenu.navpath">Login / SignUp</a>
+          <a class="nav-link active" (click)="reset()" [routerLink]="locmenu[0].navpath">Login / SignUp</a>
         </li>
       </ul>
       <a class="nav-item navbar-nav " href="#">
-        <a class="nav-link active " aria-current="page" (click)="reset()" [routerLink]="locmenu.navpath"><img src="../assets/bog.jpg" alt="Avatar Logo" style="width:40px;" class="rounded-pill"> </a>
+        <a class="nav-link active " aria-current="page" (click)="reset()" [routerLink]="locmenu[0].navpath"><img src="../assets/bog.jpg" alt="Avatar Logo" style="width:40px;" class="rounded-pill"> </a>
       </a>
     </div>
   </div>

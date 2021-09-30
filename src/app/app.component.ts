@@ -13,10 +13,15 @@ export class AppComponent {
   navbutton = false;
   buttonstat = "collapsed";
   divstat="";
-  locmenu = {
+  locmenu = [{
+    "id":1,
     "name": "Login",
     "navpath": "login"
-    };
+    },{
+      "id":2,
+      "name": "Home",
+      "navpath": ""
+      }];
   constructor(private router: Router){
 
   }
