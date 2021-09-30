@@ -1,49 +1,55 @@
-<div style="padding-bottom: 5%;">
-  <div class="pt-2">
-    <div class="card chatboxbot">
-      <div class="card-body">
-        This is some text within a card body.
-      </div>
-    </div>
+<div class = "scrollarea">
+  <div class="container">
+    <img src="/w3images/bandmember.jpg" alt="Avatar">
+    <p>Hello. How are you today?</p>
+    <span class="time-right">11:00</span>
   </div>
-  <div class="pt-2">
-    <div class="card chatboxuser">
-      <div class="card-body">
-        This is some text within a card body.
-      </div>
-    </div>
-  </div>
-  <div class="pt-2">
-    <div class="card chatboxbot">
-      <div class="card-body">
-        This is some text within a card body.
-      </div>
-    </div>
-  </div>
-  <div class="pt-2">
-    <div class="card chatboxuser">
-      <div class="card-body">
-        This is some text within a card body.
-      </div>
-    </div>
-  </div><div class="pt-2">
-    <div class="card chatboxbot">
-      <div class="card-body">
-        This is some text within a card body.
-      </div>
-    </div>
-  </div>
-  <div class="pt-2">
-    <div class="card chatboxuser">
-      <div class="card-body">
-        This is some text within a card body.
-      </div>
-    </div>
-  </div>
-</div>
 
+  <div class="container darker">
+    <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="right">
+    <p>Hey! I'm fine. Thanks for asking!</p>
+    <span class="time-left">11:01</span>
+  </div>
+
+  <div class="container">
+    <img src="/w3images/bandmember.jpg" alt="Avatar">
+    <p>Sweet! So, what do you wanna do today?</p>
+    <span class="time-right">11:02</span>
+  </div>
+
+  <div class="container darker">
+    <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="right">
+    <p>Nah, I dunno. Play soccer.. or learn more coding perhaps?</p>
+    <span class="time-left">11:05</span>
+  </div>
+
+  <div class="container">
+    <img src="/w3images/bandmember.jpg" alt="Avatar">
+    <p>Hello. How are you today?</p>
+    <span class="time-right">11:00</span>
+  </div>
+
+  <div class="container darker">
+    <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="right">
+    <p>Hey! I'm fine. Thanks for asking!</p>
+    <span class="time-left">11:01</span>
+  </div>
+
+  <div class="container">
+    <img src="/w3images/bandmember.jpg" alt="Avatar">
+    <p>Sweet! So, what do you wanna do today?</p>
+    <span class="time-right">11:02</span>
+  </div>
+
+  <div class="container darker">
+    <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="right">
+    <p>Nah, I dunno. Play soccer.. or learn more coding perhaps end?</p>
+    <span class="time-left">11:05</span>
+  </div>
+  <div id="end"></div>
+</div>
 
 <div class="input-group mb-3 fixbottom">
     <input type="text" class="form-control" placeholder="Message" aria-label="message" aria-describedby="button-addon2">
-    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Send</button>
+    <button class="btn btn-outline-secondary" type="button" id="button-addon2" (click)="sendmsg()">Send</button>
   </div>
