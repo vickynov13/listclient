@@ -1,10 +1,15 @@
 .fixbottom{
     bottom: 0;
     position: fixed;
+    padding-inline: 2%;
+    background: black;
+    padding-bottom: 1%;
+    
 }
 #end{
     padding-bottom: 4rem;
 }
+
 
 
 /* Chat containers */
