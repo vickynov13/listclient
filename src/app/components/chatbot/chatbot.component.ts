@@ -11,5 +11,14 @@ export class ChatbotComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  
+   sendmsg(){
+    var element = document.getElementById("end");
+    if(element!=null){
+      element.scrollIntoView();
+      console.log("click");
+      //element.scrollTop = element.scrollHeight; 
+    }
+  }
 
 }
