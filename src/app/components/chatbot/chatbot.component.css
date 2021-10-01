@@ -2,3 +2,13 @@
     bottom: 0;
     position: fixed;
 }
+.chatboxbot{
+    width: fit-content;
+    max-width: 80%;
+    
+}
+.chatboxuser{
+    width: fit-content;
+    max-width: 80%;
+    right: 0;
+}
