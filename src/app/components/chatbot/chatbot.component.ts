@@ -16,7 +16,7 @@ export class ChatbotComponent implements OnInit {
     var element = document.getElementById("end");
     if(element!=null){
       element.scrollIntoView();
-      console.log("click");
+      //console.log("click");
       //element.scrollTop = element.scrollHeight; 
     }
   }
