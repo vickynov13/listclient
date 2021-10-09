@@ -15,19 +15,20 @@ export class AppComponent {
   divstat="";
   locmenu = [
     {
-      "id":1,
       "name": "Login",
       "navpath": "login"
     },
     {
-      "id":2,
       "name": "Home",
       "navpath": ""
     },
     {
-      "id":3,
       "name": "Chatbot",
       "navpath": "bot"
+    },
+    {
+      "name": "Poster",
+      "navpath": "poster"
     }];
   constructor(private router: Router){
 

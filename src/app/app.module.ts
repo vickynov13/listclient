@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
 import { ChatbotComponent } from './components/chatbot/chatbot.component';
+import { PosterComponent } from './components/poster/poster.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     LoginComponent,
-    ChatbotComponent
+    ChatbotComponent,
+    PosterComponent
   ],
   imports: [
     BrowserModule,
